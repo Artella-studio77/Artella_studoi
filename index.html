@@ -2,34 +2,198 @@
 <html lang="en">
 
 <head>
-<link rel="manifest" href="manifest.json">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Artella Studio</title>
 
 <link rel="stylesheet" href="style.css">
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
-</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <div id="stars"></div>
 
-<div class="content">
+<header>
 
-<h1>✨ ARTELLA STUDIO ✨</h1>
+<div class="logo">
+✨ Artella Studio
+</div>
 
-<p>Where Dreams Become Games</p>
+<nav>
 
-<button onclick="enterStudio()">
-🎮 Enter Studio
-</button>
+<a href="#home">Home</a>
+<a href="#apps">Apps</a>
+<a href="#games">Games</a>
+<a href="#websites">Websites</a>
+<a href="#about">About</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>Build The Future</h1>
+
+<p>
+Creating websites, games and creative digital experiences.
+</p>
+
+<a href="#apps" class="btn">
+Explore
+</a>
+
+</section>
+
+<section id="apps">
+
+<h2>📱 Applications</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="images/app1.png">
+
+<h3>Coming Soon</h3>
+
+<p>
+Your application description.
+</p>
+
+<button>Open</button>
 
 </div>
+
+<div class="card">
+
+<img src="images/app2.png">
+
+<h3>Coming Soon</h3>
+
+<p>
+Your application description.
+</p>
+
+<button>Open</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="games">
+
+<h2>🎮 Games</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="images/game1.png">
+
+<h3>Coming Soon</h3>
+
+<p>
+Future game.
+</p>
+
+<button>Play</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/game2.png">
+
+<h3>Coming Soon</h3>
+
+<p>
+Future game.
+</p>
+
+<button>Play</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="websites">
+
+<h2>🌐 Websites</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="images/site1.png">
+
+<h3>Artella Studio</h3>
+
+<p>
+Official Website.
+</p>
+
+<button>Visit</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/site2.png">
+
+<h3>Future Website</h3>
+
+<p>
+Coming Soon.
+</p>
+
+<button>Visit</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>👤 About Me</h2>
+
+<div class="about">
+
+<img src="images/profile.png">
+
+<div>
+
+<p>
+
+Hello!
+
+I'm the founder of Artella Studio.
+
+I love programming, game development, web design and creating creative digital projects.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Artella Studio
+
+</footer>
 
 <script src="script.js"></script>
 
